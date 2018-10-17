@@ -10,13 +10,6 @@ import Foundation
 import UIKit
 
 public protocol VersaPlayerGestureRecieverViewDelegate {
-    
-    /// Pinch was recognized
-    ///
-    /// - Parameters:
-    ///     - scale: CGFloat scale
-    func didPinch(with scale: CGFloat)
-    
     /// Tap was recognized
     ///
     /// - Parameters:

@@ -49,18 +49,6 @@ open class VersaPlayerControlsCoordinator: UIView, VersaPlayerGestureRecieverVie
         }
     }
     
-    /// Notifies when pinch was recognized
-    ///
-    /// - Parameters:
-    ///     - scale: CGFloat value
-    public func didPinch(with scale: CGFloat) {
-        if player.renderingView.renderingLayer.playerLayer.videoGravity == AVLayerVideoGravity.resizeAspect {
-            player.renderingView.renderingLayer.playerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
-        }else {
-            player.renderingView.renderingLayer.playerLayer.videoGravity = AVLayerVideoGravity.resizeAspect
-        }
-    }
-    
     /// Notifies when tap was recognized
     ///
     /// - Parameters:
