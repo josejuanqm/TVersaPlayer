@@ -1,7 +1,7 @@
-[![CI Status](https://img.shields.io/travis/jose.juan.qm@gmail.com/VersaPlayer.svg?style=flat)](https://travis-ci.org/jose.juan.qm@gmail.com/VersaPlayer)
-[![Version](https://img.shields.io/cocoapods/v/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/VersaPlayer)
-[![License](https://img.shields.io/cocoapods/l/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/VersaPlayer)
-[![Platform](https://img.shields.io/cocoapods/p/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/VersaPlayer)
+[![CI Status](https://img.shields.io/travis/jose.juan.qm@gmail.com/VersaPlayer.svg?style=flat)](https://travis-ci.org/jose.juan.qm@gmail.com/TVersaPlayer)
+[![Version](https://img.shields.io/cocoapods/v/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
+[![License](https://img.shields.io/cocoapods/l/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
+[![Platform](https://img.shields.io/cocoapods/p/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
 
 <div>
   <p align="center">
@@ -51,17 +51,13 @@
   </ol>
 </div>
 
-## :warning: tvOS Information
-
-If you are looking for the tvOS player, head over to https://github.com/josejuanqm/TVersaPlayer
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-iPad PIP mode             |  iPhone normal mode
-:-------------------------:|:-------------------------:
-![](https://github.com/josejuanqm/VersaPlayer/blob/master/RepoAssets/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch)%20-%202018-10-15%20at%2013.34.10.png)  |  ![](https://github.com/josejuanqm/VersaPlayer/blob/master/RepoAssets/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-10-15%20at%2013.33.03.png)
+iPad PIP mode             |
+:-------------------------:
+![](https://github.com/josejuanqm/VersaPlayer/blob/master/RepoAssets/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch)%20-%202018-10-15%20at%2013.34.10.png)  |
 
 ## Installation
 
@@ -72,18 +68,20 @@ You can install it with the following command:
 $ gem install cocoapods
 ```
 
-VersaPlayer is available through [CocoaPods](https://cocoapods.org). To install
+TVersaPlayer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'VersaPlayer'
+pod 'TVersaPlayer'
 ```
 
 ## Usage
 
 ### Basic Usage
 
-VersaPlayer aims to be simple to use but also flexible, to start using VersaPlayer first create a view programatically or via storyboard. Then add this few lines of code to start playing your video.
+VersaPlayer for tvOS comes with a VersaPlayerController so no need for autolayout on the player side.
+
+TVersaPlayer aims to be simple to use but also flexible, to start using VersaPlayer first create a view programatically or via storyboard. Then add this few lines of code to start playing your video.
 
 <div>
   <p align="center">
@@ -100,8 +98,6 @@ VersaPlayerControls class include the following outlets:
 Outlet Name             | Type             |  Action
 ------------------------- | ------------------------- | -------------------------
 playPauseButton | VersaStatefullButton | Toggle playback
-fullscreenButton | VersaStatefullButton | Toggle fullscreen mode
-pipButton | VersaStatefullButton | Toggle PIP mode in supported devices
 rewindButton | VersaStatefullButton | Rewind playback
 forwardButton | VersaStatefullButton | Fast forward playback
 skipForwardButton | VersaStatefullButton | Skip forward the time specified in second at skipSize (found in VersaPlayerControls)
@@ -125,10 +121,6 @@ This class comes with a player attribute that points to the player instance from
 To add an extension use the add(extension ext:) method found in https://josejuanqm.github.io/Libraries-Documentation/VersaPlayerCore/Classes/VersaPlayer.html.
 
 Here are some extensions for VersaPlayer that may be useful for you.
-
-1. [AirPlay Extension](https://github.com/josejuanqm/VersaPlayerAirplayExtension)
-
-2. [Ads Extension](https://github.com/josejuanqm/VersaPlayerAdsExtension)
 
 3. [Overlay Content Extension](https://github.com/josejuanqm/VersaPlayerOverlayContentExtension)
 
