@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  TVersaPlayer
+//  ExampleTVOS
 //
-//  Created by jose.juan.qm@gmail.com on 10/16/2018.
-//  Copyright (c) 2018 jose.juan.qm@gmail.com. All rights reserved.
+//  Created by Jose Quintero on 10/16/18.
+//  Copyright © 2018 CocoaPods. All rights reserved.
 //
 
 import UIKit
@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {

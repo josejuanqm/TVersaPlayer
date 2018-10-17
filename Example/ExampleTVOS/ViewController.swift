@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  TVersaPlayer
+//  ExampleTVOS
 //
-//  Created by jose.juan.qm@gmail.com on 10/16/2018.
-//  Copyright (c) 2018 jose.juan.qm@gmail.com. All rights reserved.
+//  Created by Jose Quintero on 10/16/18.
+//  Copyright © 2018 CocoaPods. All rights reserved.
 //
 
 import UIKit
@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
 }
 
