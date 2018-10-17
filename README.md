@@ -49,7 +49,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-iPad PIP mode             |
+Example             |
 :-------------------------:
 ![](https://github.com/josejuanqm/TVersaPlayer/blob/master/screenshot.png)  |
 
