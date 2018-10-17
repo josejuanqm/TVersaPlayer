@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TVersaPlayer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'AVPlayer and AVPlayerController implementation for tvOS'
   s.description      = 'AVPlayer and AVPlayerController implementation for tvOS using VersaPlayer as base.'
-  s.homepage         = 'https://github.com/jose.juan.qm@gmail.com/TVersaPlayer'
+  s.homepage         = 'https://github.com/josejuanqm/TVersaPlayer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jose Quintero' => 'jose.juan.qm@gmail.com' }
   s.source           = { :git => 'https://github.com/josejuanqm/TVersaPlayer.git', :tag => s.version.to_s }
