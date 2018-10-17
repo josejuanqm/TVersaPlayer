@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TVersaPlayer'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'AVPlayer and AVPlayerController implementation for tvOS'
   s.description      = 'AVPlayer and AVPlayerController implementation for tvOS using VersaPlayer as base.'
   s.homepage         = 'https://github.com/josejuanqm/TVersaPlayer'
