@@ -54,7 +54,7 @@ open class VersaPlayer: UIView {
     }
     
     /// Requires linear playback
-    var requiresLinearPlayback: Bool {
+    public var requiresLinearPlayback: Bool {
         get {
             return controls?.requiresLinearPlayback ?? false
         }
