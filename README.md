@@ -1,11 +1,11 @@
-[![CI Status](https://img.shields.io/travis/jose.juan.qm@gmail.com/VersaPlayer.svg?style=flat)](https://travis-ci.org/jose.juan.qm@gmail.com/TVersaPlayer)
-[![Version](https://img.shields.io/cocoapods/v/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
-[![License](https://img.shields.io/cocoapods/l/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
-[![Platform](https://img.shields.io/cocoapods/p/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
+[![CI Status](https://img.shields.io/travis/jose.juan.qm@gmail.com/TVersaPlayer.svg?style=flat)](https://travis-ci.org/jose.juan.qm@gmail.com/TVersaPlayer)
+[![Version](https://img.shields.io/cocoapods/v/TVersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
+[![License](https://img.shields.io/cocoapods/l/TVersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
+[![Platform](https://img.shields.io/cocoapods/p/TVersaPlayer.svg?style=flat)](https://cocoapods.org/pods/TVersaPlayer)
 
 <div>
   <p align="center">
-    <img src="https://github.com/josejuanqm/VersaPlayer/blob/master/Image.png" />
+    <img src="https://github.com/josejuanqm/TVersaPlayer/blob/master/logo.png" />
   </p>
 </div>
 
@@ -49,7 +49,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-iPad PIP mode             |
+Example             |
 :-------------------------:
 ![](https://github.com/josejuanqm/TVersaPlayer/blob/master/screenshot.png)  |
 
