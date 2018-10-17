@@ -7,19 +7,17 @@
 //
 
 import UIKit
+import TVersaPlayer
 
-class ViewController: UIViewController {
+class ViewController: VersaPlayerController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        if let url = URL.init(string: "http://rmcdn.2mdn.net/Demo/html5/output.mp4") {
+            let item = VPlayerItem(url: url)
+            player.set(item: item)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

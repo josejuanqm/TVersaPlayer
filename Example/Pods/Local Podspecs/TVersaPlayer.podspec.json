@@ -1,0 +1,23 @@
+{
+  "name": "TVersaPlayer",
+  "version": "0.1.0",
+  "summary": "AVPlayer and AVPlayerController implementation for tvOS",
+  "description": "AVPlayer and AVPlayerController implementation for tvOS using VersaPlayer as base.",
+  "homepage": "https://github.com/jose.juan.qm@gmail.com/TVersaPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jose Quintero": "jose.juan.qm@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/josejuanqm/TVersaPlayer.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/josejuanqm",
+  "platforms": {
+    "tvos": "9.0"
+  },
+  "source_files": "TVersaPlayer/Classes/**/*"
+}

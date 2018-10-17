@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13122.16" systemVersion="17A278a" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="14113" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,7 +14,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExampleTVOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -20,9 +25,91 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
                     </view>
+                    <connections>
+                        <outlet property="controls" destination="3h5-Wp-5Xi" id="WYm-9E-wCG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="3h5-Wp-5Xi" customClass="VersaPlayerControls" customModule="TVersaPlayer">
+                    <rect key="frame" x="0.0" y="0.0" width="1350" height="863"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cHI-X9-lVx" customClass="VersaSeekbarSlider" customModule="TVersaPlayer">
+                            <rect key="frame" x="90" y="593" width="1170" height="10"/>
+                            <color key="trackTintColor" cocoaTouchSystemColor="lightTextColor"/>
+                        </progressView>
+                        <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoj-z1-mFi" customClass="VersaStatefulButton" customModule="TVersaPlayer">
+                            <rect key="frame" x="600" y="653" width="150" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="O2J-qw-O42"/>
+                                <constraint firstAttribute="width" secondItem="hoj-z1-mFi" secondAttribute="height" id="g0O-xp-b4X"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                            <state key="normal" image="play"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="image" keyPath="activeImage" value="pause"/>
+                                <userDefinedRuntimeAttribute type="image" keyPath="inactiveImage" value="play"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ke-6B-8Dh" customClass="VersaStatefulButton" customModule="TVersaPlayer">
+                            <rect key="frame" x="850" y="653" width="150" height="150"/>
+                            <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                            <state key="normal" image="forward"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="image" keyPath="activeImage" value="forward"/>
+                                <userDefinedRuntimeAttribute type="image" keyPath="inactiveImage" value="forward"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2F-vu-YDA" customClass="VersaStatefulButton" customModule="TVersaPlayer">
+                            <rect key="frame" x="350" y="653" width="150" height="150"/>
+                            <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                            <state key="normal" image="rewind"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="image" keyPath="activeImage" value="rewind"/>
+                                <userDefinedRuntimeAttribute type="image" keyPath="inactiveImage" value="rewind"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--:--:--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEs-Qd-zHB" customClass="VersaTimeLabel" customModule="TVersaPlayer">
+                            <rect key="frame" x="1138" y="527" width="122" height="46"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="0.50448393489999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="cHI-X9-lVx" firstAttribute="leading" secondItem="fe9-Eu-x3p" secondAttribute="leading" id="61N-rb-PNW"/>
+                        <constraint firstItem="1Ke-6B-8Dh" firstAttribute="top" secondItem="hoj-z1-mFi" secondAttribute="top" id="8gZ-k0-PcB"/>
+                        <constraint firstItem="hoj-z1-mFi" firstAttribute="leading" secondItem="H2F-vu-YDA" secondAttribute="trailing" constant="100" id="AYT-hS-TFm"/>
+                        <constraint firstItem="1Ke-6B-8Dh" firstAttribute="leading" secondItem="hoj-z1-mFi" secondAttribute="trailing" constant="100" id="Aha-Qm-Rtk"/>
+                        <constraint firstItem="hoj-z1-mFi" firstAttribute="bottom" secondItem="fe9-Eu-x3p" secondAttribute="bottom" id="NGk-sh-H6u"/>
+                        <constraint firstItem="cHI-X9-lVx" firstAttribute="top" secondItem="VEs-Qd-zHB" secondAttribute="bottom" constant="20" id="QLV-eS-v9T"/>
+                        <constraint firstItem="VEs-Qd-zHB" firstAttribute="trailing" secondItem="cHI-X9-lVx" secondAttribute="trailing" id="RkU-Zd-RnP"/>
+                        <constraint firstItem="1Ke-6B-8Dh" firstAttribute="bottom" secondItem="hoj-z1-mFi" secondAttribute="bottom" id="Tmm-pr-XmK"/>
+                        <constraint firstItem="fe9-Eu-x3p" firstAttribute="trailing" secondItem="cHI-X9-lVx" secondAttribute="trailing" id="XjT-mr-ah4"/>
+                        <constraint firstItem="H2F-vu-YDA" firstAttribute="top" secondItem="hoj-z1-mFi" secondAttribute="top" id="ZIK-7s-sfk"/>
+                        <constraint firstItem="hoj-z1-mFi" firstAttribute="top" secondItem="cHI-X9-lVx" secondAttribute="bottom" constant="50" id="edf-5B-yjR"/>
+                        <constraint firstItem="H2F-vu-YDA" firstAttribute="bottom" secondItem="hoj-z1-mFi" secondAttribute="bottom" id="gQG-5t-hI7"/>
+                        <constraint firstItem="H2F-vu-YDA" firstAttribute="width" secondItem="hoj-z1-mFi" secondAttribute="width" id="i0X-Fd-k6M"/>
+                        <constraint firstItem="1Ke-6B-8Dh" firstAttribute="width" secondItem="hoj-z1-mFi" secondAttribute="width" id="lw7-Dv-6dt"/>
+                        <constraint firstItem="hoj-z1-mFi" firstAttribute="centerX" secondItem="3h5-Wp-5Xi" secondAttribute="centerX" id="zML-hK-zUe"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="fe9-Eu-x3p"/>
+                    <connections>
+                        <outlet property="currentTimeLabel" destination="VEs-Qd-zHB" id="4bt-0s-lnc"/>
+                        <outlet property="playPauseButton" destination="hoj-z1-mFi" id="sNy-EU-tRM"/>
+                        <outlet property="seekbarSlider" destination="cHI-X9-lVx" id="U7Q-jo-sEg"/>
+                        <outlet property="skipBackwardButton" destination="H2F-vu-YDA" id="jvi-gK-u2W"/>
+                        <outlet property="skipForwardButton" destination="1Ke-6B-8Dh" id="E1X-BL-tGa"/>
+                    </connections>
+                </view>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="forward" width="96" height="96"/>
+        <image name="pause" width="96" height="96"/>
+        <image name="play" width="96" height="96"/>
+        <image name="rewind" width="96" height="96"/>
+    </resources>
 </document>

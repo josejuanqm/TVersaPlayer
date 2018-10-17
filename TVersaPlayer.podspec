@@ -9,34 +9,13 @@
 Pod::Spec.new do |s|
   s.name             = 'TVersaPlayer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TVersaPlayer.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.summary          = 'AVPlayer and AVPlayerController implementation for tvOS'
+  s.description      = 'AVPlayer and AVPlayerController implementation for tvOS using VersaPlayer as base.'
   s.homepage         = 'https://github.com/jose.juan.qm@gmail.com/TVersaPlayer'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jose.juan.qm@gmail.com' => 'jose.juan.qm@gmail.com' }
-  s.source           = { :git => 'https://github.com/jose.juan.qm@gmail.com/TVersaPlayer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.author           = { 'Jose Quintero' => 'jose.juan.qm@gmail.com' }
+  s.source           = { :git => 'https://github.com/josejuanqm/TVersaPlayer.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/josejuanqm'
+  s.tvos.deployment_target = '9.0'
   s.source_files = 'TVersaPlayer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TVersaPlayer' => ['TVersaPlayer/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

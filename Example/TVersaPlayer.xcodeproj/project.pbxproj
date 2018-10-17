@@ -7,74 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A38C4D3D219D43AC7418EB14 /* Pods_TVersaPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93601D7448A8167AEFC367C1 /* Pods_TVersaPlayer_Tests.framework */; };
-		C565FFE3B171817CCD48FFB6 /* Pods_TVersaPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D7DAB6AF78E7E0AE0F71E2 /* Pods_TVersaPlayer_Example.framework */; };
+		1169B7A42176E76A00F1155D /* ExampleTVOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169B7A32176E76A00F1155D /* ExampleTVOSTests.swift */; };
+		1192A0602176E5F10079EE99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192A05F2176E5F10079EE99 /* AppDelegate.swift */; };
+		1192A0622176E5F10079EE99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192A0612176E5F10079EE99 /* ViewController.swift */; };
+		1192A0652176E5F10079EE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1192A0632176E5F10079EE99 /* Main.storyboard */; };
+		1192A0672176E5F30079EE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1192A0662176E5F30079EE99 /* Assets.xcassets */; };
+		4539FED0C88E120271EAAAF6 /* Pods_ExampleTVOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC0E1D875A675CAB900CC69 /* Pods_ExampleTVOSTests.framework */; };
+		C39E96D1FAF78A0CCB60E444 /* Pods_ExampleTVOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0744DA711C28B28F25DF23 /* Pods_ExampleTVOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+		1169B7A62176E76A00F1155D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = TVersaPlayer;
+			remoteGlobalIDString = 1192A05C2176E5F10079EE99;
+			remoteInfo = ExampleTVOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		112735A0A3210E97CB7B89E2 /* Pods-TVersaPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVersaPlayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVersaPlayer_Example/Pods-TVersaPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1169B7A12176E76A00F1155D /* ExampleTVOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTVOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1169B7A32176E76A00F1155D /* ExampleTVOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTVOSTests.swift; sourceTree = "<group>"; };
+		1169B7A52176E76A00F1155D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1192A05D2176E5F10079EE99 /* ExampleTVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleTVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1192A05F2176E5F10079EE99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1192A0612176E5F10079EE99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1192A0642176E5F10079EE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1192A0662176E5F30079EE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1192A0682176E5F30079EE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1219073EF4603096105A1E09 /* Pods-TVersaPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVersaPlayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVersaPlayer_Tests/Pods-TVersaPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		20D7DAB6AF78E7E0AE0F71E2 /* Pods_TVersaPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVersaPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38E78280090869140FD6C671 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		38E78280090869140FD6C671 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		45595DB727A59E19455EEA07 /* Pods-ExampleTVOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTVOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTVOSTests/Pods-ExampleTVOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48197EA6AD0A9B7F0698D615 /* Pods-ExampleTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTVOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTVOS/Pods-ExampleTVOS.release.xcconfig"; sourceTree = "<group>"; };
 		4AB112F761EC5112DDFE9145 /* Pods-TVersaPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVersaPlayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVersaPlayer_Tests/Pods-TVersaPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* TVersaPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVersaPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* TVersaPlayer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVersaPlayer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8B00897CD894B13DE0F8DF5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		68790EA7F108A9BD6DA6689D /* Pods-ExampleTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTVOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTVOS/Pods-ExampleTVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8B00897CD894B13DE0F8DF5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		93601D7448A8167AEFC367C1 /* Pods_TVersaPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVersaPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A21381EAC1BAE4FB55C109 /* Pods-ExampleTVOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTVOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTVOSTests/Pods-ExampleTVOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA0744DA711C28B28F25DF23 /* Pods_ExampleTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BDD405B7B494DBEAA860C4 /* Pods-TVersaPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVersaPlayer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVersaPlayer_Example/Pods-TVersaPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FC6A6AE42D723EF0C5665B62 /* TVersaPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TVersaPlayer.podspec; path = ../TVersaPlayer.podspec; sourceTree = "<group>"; };
+		FBC0E1D875A675CAB900CC69 /* Pods_ExampleTVOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTVOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6A6AE42D723EF0C5665B62 /* TVersaPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TVersaPlayer.podspec; path = ../TVersaPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+		1169B79E2176E76A00F1155D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C565FFE3B171817CCD48FFB6 /* Pods_TVersaPlayer_Example.framework in Frameworks */,
+				4539FED0C88E120271EAAAF6 /* Pods_ExampleTVOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		1192A05A2176E5F10079EE99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A38C4D3D219D43AC7418EB14 /* Pods_TVersaPlayer_Tests.framework in Frameworks */,
+				C39E96D1FAF78A0CCB60E444 /* Pods_ExampleTVOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1169B7A22176E76A00F1155D /* ExampleTVOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1169B7A32176E76A00F1155D /* ExampleTVOSTests.swift */,
+				1169B7A52176E76A00F1155D /* Info.plist */,
+			);
+			path = ExampleTVOSTests;
+			sourceTree = "<group>";
+		};
+		1192A05E2176E5F10079EE99 /* ExampleTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				1192A05F2176E5F10079EE99 /* AppDelegate.swift */,
+				1192A0612176E5F10079EE99 /* ViewController.swift */,
+				1192A0632176E5F10079EE99 /* Main.storyboard */,
+				1192A0662176E5F30079EE99 /* Assets.xcassets */,
+				1192A0682176E5F30079EE99 /* Info.plist */,
+			);
+			path = ExampleTVOS;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for TVersaPlayer */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				1192A05E2176E5F10079EE99 /* ExampleTVOS */,
+				1169B7A22176E76A00F1155D /* ExampleTVOSTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				85C8FF2A597D5E27198C87A6 /* Pods */,
 				B5C3D0648A39BC9A06A5314C /* Frameworks */,
@@ -84,49 +109,10 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* TVersaPlayer_Example.app */,
-				607FACE51AFB9204008FA782 /* TVersaPlayer_Tests.xctest */,
+				1192A05D2176E5F10079EE99 /* ExampleTVOS.app */,
+				1169B7A12176E76A00F1155D /* ExampleTVOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACD21AFB9204008FA782 /* Example for TVersaPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
-			);
-			name = "Example for TVersaPlayer";
-			path = TVersaPlayer;
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
@@ -146,6 +132,10 @@
 				E9BDD405B7B494DBEAA860C4 /* Pods-TVersaPlayer_Example.release.xcconfig */,
 				4AB112F761EC5112DDFE9145 /* Pods-TVersaPlayer_Tests.debug.xcconfig */,
 				1219073EF4603096105A1E09 /* Pods-TVersaPlayer_Tests.release.xcconfig */,
+				68790EA7F108A9BD6DA6689D /* Pods-ExampleTVOS.debug.xcconfig */,
+				48197EA6AD0A9B7F0698D615 /* Pods-ExampleTVOS.release.xcconfig */,
+				45595DB727A59E19455EEA07 /* Pods-ExampleTVOSTests.debug.xcconfig */,
+				B2A21381EAC1BAE4FB55C109 /* Pods-ExampleTVOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -155,6 +145,8 @@
 			children = (
 				20D7DAB6AF78E7E0AE0F71E2 /* Pods_TVersaPlayer_Example.framework */,
 				93601D7448A8167AEFC367C1 /* Pods_TVersaPlayer_Tests.framework */,
+				BA0744DA711C28B28F25DF23 /* Pods_ExampleTVOS.framework */,
+				FBC0E1D875A675CAB900CC69 /* Pods_ExampleTVOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,44 +154,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* TVersaPlayer_Example */ = {
+		1169B7A02176E76A00F1155D /* ExampleTVOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TVersaPlayer_Example" */;
+			buildConfigurationList = 1169B7AA2176E76A00F1155D /* Build configuration list for PBXNativeTarget "ExampleTVOSTests" */;
 			buildPhases = (
-				4D16CAE3389985D36E329A30 /* [CP] Check Pods Manifest.lock */,
-				607FACCC1AFB9204008FA782 /* Sources */,
-				607FACCD1AFB9204008FA782 /* Frameworks */,
-				607FACCE1AFB9204008FA782 /* Resources */,
-				58DA7D458F42FA361AD2E275 /* [CP] Embed Pods Frameworks */,
+				5E8915D5B967D3223BACDA2E /* [CP] Check Pods Manifest.lock */,
+				1169B79D2176E76A00F1155D /* Sources */,
+				1169B79E2176E76A00F1155D /* Frameworks */,
+				1169B79F2176E76A00F1155D /* Resources */,
+				DAC50A71F0CDAD09F50E765F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1169B7A72176E76A00F1155D /* PBXTargetDependency */,
 			);
-			name = TVersaPlayer_Example;
-			productName = TVersaPlayer;
-			productReference = 607FACD01AFB9204008FA782 /* TVersaPlayer_Example.app */;
-			productType = "com.apple.product-type.application";
-		};
-		607FACE41AFB9204008FA782 /* TVersaPlayer_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TVersaPlayer_Tests" */;
-			buildPhases = (
-				1020C90930814F1D2289C387 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				3DD3716E79F342C691A2B99A /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = TVersaPlayer_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* TVersaPlayer_Tests.xctest */;
+			name = ExampleTVOSTests;
+			productName = ExampleTVOSTests;
+			productReference = 1169B7A12176E76A00F1155D /* ExampleTVOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1192A05C2176E5F10079EE99 /* ExampleTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1192A0692176E5F30079EE99 /* Build configuration list for PBXNativeTarget "ExampleTVOS" */;
+			buildPhases = (
+				8ACF4AF0DB8BD6DD1709F51D /* [CP] Check Pods Manifest.lock */,
+				1192A0592176E5F10079EE99 /* Sources */,
+				1192A05A2176E5F10079EE99 /* Frameworks */,
+				1192A05B2176E5F10079EE99 /* Resources */,
+				AA69A7295A8F4D9D6CE86DC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleTVOS;
+			productName = ExampleTVOS;
+			productReference = 1192A05D2176E5F10079EE99 /* ExampleTVOS.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -207,18 +199,20 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+					1169B7A02176E76A00F1155D = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = VZ7659A4W3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1192A05C2176E5F10079EE99;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+					1192A05C2176E5F10079EE99 = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = VZ7659A4W3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -235,34 +229,33 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* TVersaPlayer_Example */,
-				607FACE41AFB9204008FA782 /* TVersaPlayer_Tests */,
+				1192A05C2176E5F10079EE99 /* ExampleTVOS */,
+				1169B7A02176E76A00F1155D /* ExampleTVOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607FACCE1AFB9204008FA782 /* Resources */ = {
+		1169B79F2176E76A00F1155D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		1192A05B2176E5F10079EE99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1192A0672176E5F30079EE99 /* Assets.xcassets in Resources */,
+				1192A0652176E5F10079EE99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1020C90930814F1D2289C387 /* [CP] Check Pods Manifest.lock */ = {
+		5E8915D5B967D3223BACDA2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,20 +266,56 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TVersaPlayer_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ExampleTVOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3DD3716E79F342C691A2B99A /* [CP] Embed Pods Frameworks */ = {
+		8ACF4AF0DB8BD6DD1709F51D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TVersaPlayer_Tests/Pods-TVersaPlayer_Tests-frameworks.sh",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleTVOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA69A7295A8F4D9D6CE86DC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExampleTVOS/Pods-ExampleTVOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TVersaPlayer/TVersaPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TVersaPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleTVOS/Pods-ExampleTVOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC50A71F0CDAD09F50E765F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExampleTVOSTests/Pods-ExampleTVOSTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
@@ -301,95 +330,167 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVersaPlayer_Tests/Pods-TVersaPlayer_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D16CAE3389985D36E329A30 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TVersaPlayer_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		58DA7D458F42FA361AD2E275 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TVersaPlayer_Example/Pods-TVersaPlayer_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TVersaPlayer/TVersaPlayer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TVersaPlayer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVersaPlayer_Example/Pods-TVersaPlayer_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleTVOSTests/Pods-ExampleTVOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		607FACCC1AFB9204008FA782 /* Sources */ = {
+		1169B79D2176E76A00F1155D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				1169B7A42176E76A00F1155D /* ExampleTVOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		1192A0592176E5F10079EE99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				1192A0622176E5F10079EE99 /* ViewController.swift in Sources */,
+				1192A0602176E5F10079EE99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+		1169B7A72176E76A00F1155D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* TVersaPlayer_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+			target = 1192A05C2176E5F10079EE99 /* ExampleTVOS */;
+			targetProxy = 1169B7A62176E76A00F1155D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		1192A0632176E5F10079EE99 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				1192A0642176E5F10079EE99 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1169B7A82176E76A00F1155D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45595DB727A59E19455EEA07 /* Pods-ExampleTVOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VZ7659A4W3;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ExampleTVOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.quasar.ExampleTVOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleTVOS.app/ExampleTVOS";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		1169B7A92176E76A00F1155D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A21381EAC1BAE4FB55C109 /* Pods-ExampleTVOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ7659A4W3;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ExampleTVOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.quasar.ExampleTVOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleTVOS.app/ExampleTVOS";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		1192A06A2176E5F30079EE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68790EA7F108A9BD6DA6689D /* Pods-ExampleTVOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VZ7659A4W3;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ExampleTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.quasar.ExampleTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		1192A06B2176E5F30079EE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48197EA6AD0A9B7F0698D615 /* Pods-ExampleTVOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ7659A4W3;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ExampleTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.quasar.ExampleTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -489,102 +590,32 @@
 			};
 			name = Release;
 		};
-		607FACF01AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 112735A0A3210E97CB7B89E2 /* Pods-TVersaPlayer_Example.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TVersaPlayer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		607FACF11AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9BDD405B7B494DBEAA860C4 /* Pods-TVersaPlayer_Example.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TVersaPlayer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AB112F761EC5112DDFE9145 /* Pods-TVersaPlayer_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVersaPlayer_Example.app/TVersaPlayer_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1219073EF4603096105A1E09 /* Pods-TVersaPlayer_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVersaPlayer_Example.app/TVersaPlayer_Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1169B7AA2176E76A00F1155D /* Build configuration list for PBXNativeTarget "ExampleTVOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1169B7A82176E76A00F1155D /* Debug */,
+				1169B7A92176E76A00F1155D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1192A0692176E5F30079EE99 /* Build configuration list for PBXNativeTarget "ExampleTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1192A06A2176E5F30079EE99 /* Debug */,
+				1192A06B2176E5F30079EE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TVersaPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
 				607FACEE1AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TVersaPlayer_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF01AFB9204008FA782 /* Debug */,
-				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TVersaPlayer_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'TVersaPlayer_Example' do
+target 'ExampleTVOS' do
   pod 'TVersaPlayer', :path => '../'
 
-  target 'TVersaPlayer_Tests' do
+  target 'ExampleTVOSTests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.2.0'

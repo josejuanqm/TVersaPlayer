@@ -1,0 +1,6 @@
+framework module TVersaPlayer {
+  umbrella header "TVersaPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
