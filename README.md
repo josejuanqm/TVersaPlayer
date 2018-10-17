@@ -33,12 +33,6 @@
     </li>
     <ol>
       <li>
-        <a href="#extensions">Airplay Extension</a>
-      </li>
-      <li>
-        <a href="#extensions">Ads Extension</a>
-      </li>
-      <li>
         <a href="#extensions">Overlay Content Extension</a>
       </li>
     </ol>
@@ -57,7 +51,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 iPad PIP mode             |
 :-------------------------:
-![](https://github.com/josejuanqm/VersaPlayer/blob/master/RepoAssets/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch)%20-%202018-10-15%20at%2013.34.10.png)  |
+![](https://github.com/josejuanqm/TVersaPlayer/blob/master/screenshot.png)  |
 
 ## Installation
 
